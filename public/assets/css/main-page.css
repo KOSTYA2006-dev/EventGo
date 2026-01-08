@@ -1,0 +1,23 @@
+.main{
+    margin-top: 60px;
+}
+
+.main-content__p{
+
+    color: #636363;
+
+}
+
+.main-content{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-content__text{
+    width: 750px;
+}
+
+
