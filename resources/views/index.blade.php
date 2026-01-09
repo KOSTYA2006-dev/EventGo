@@ -435,8 +435,10 @@
         </footer>
     </div>
 
-    <script src="{{ asset('assets/js/backgraund.js'}}"></script>
-    <script src="{{ asset('assets/js/matrix.js'}}"></script>
+    <!-- <script src="{{ asset('assets/js/backgraund.js'}}"></script>
+    <script src="{{ asset('assets/js/matrix.js'}}"></script> -->
+    <script src="{{ secure_asset('assets/js/backgraund.js') }}"></script>
+<script src="{{ secure_asset('assets/js/matrix.js') }}"></script>
     <script>
         // Countdown Timer
         const eventDate = new Date('{{ $eventDate }}').getTime();
